@@ -9,6 +9,26 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
     <title>{{ .Site.Title }}</title>
+  
+    <!-- Primary Meta Tags -->
+    <title>Developer Glossary</title>
+    <meta name="title" content="Developer Glossary">
+    <meta name="description" content="A developer's glossary built by the community, for the community.">
+  
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:title" content="Developer Glossary">
+    <meta property="og:description" content="A developer's glossary built by the community, for the community.">
+    <meta property="og:image" content="{{ .Site.BaseURL }}meta.jpg">
+  
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ .Permalink }}">
+    <meta property="twitter:title" content="Developer Glossary">
+    <meta property="twitter:description" content="A developer's glossary built by the community, for the community.">
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}meta.jpg">
+    
     <link rel="canonical" href="{{ .Permalink }}" />
   </head>
   <body>
