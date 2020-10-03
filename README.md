@@ -1,6 +1,6 @@
 # developer-glossary
 
-A community-built glossary of technical terms.
+A community-built glossary of technical terms. See it live at [www.glossary.dev](https://www.glossary.dev)
 
 ## How to Contribute a new term and definition
 
