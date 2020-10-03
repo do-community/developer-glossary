@@ -15,7 +15,7 @@
 
       {{ .Content }}
 
-      {{ if isset .Params "synonyms"}}
+      {{ if isset .Params "synonyms" }}
         <h2>Synonyms</h2>
         <li>
         <ul>{{ delimit .Params.synonyms ", " ", and " }}</ul>
