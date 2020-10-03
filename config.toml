@@ -1,3 +1,13 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Developer Glossary"
+copyright = "MIT License, <a href='https://github.com/do-community/developer-glossary'>Contribute on GitHub</a>"
+description = "test"
+
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  titleEmoji = ":tada:"
+
+[Permalinks]
+  term = ":slug"

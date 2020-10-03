@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ .Site.Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        {{ .Site.Title }}
+      </h1>
+    </header>
+    <main>
+
+      {{ .Content }}
+
+      {{ $letter := "A" }}
+
+      {{ range $index, $page := where .Site.Pages "Kind" "!=" "home" }}
+
+        {{ if or (eq $index 0) (ne $letter (substr .Title 0 1)) }}
+          {{ $letter := (substr .Title 0 1) }}
+          <h2>{{ $letter }}</h2>
+          <hr>
+        {{ end }}
+
+        <h3>
+          <a href="{{.Permalink}}">
+            {{ .Title }}
+          </a>
+        </h3>
+
+        <div class="definition">
+          {{ .Content }}
+        </div>
+      {{ end }}
+        
+      </main>
+      <footer>
+
+      </footer>
+  </body>
+</html>
