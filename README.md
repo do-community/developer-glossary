@@ -4,6 +4,8 @@ A community-built glossary of technical terms.
 
 ## How to Contribute a new term and definition
 
+If you see that the glossary is missing a term, we would love your help in adding it!
+
 New terms should be added to the `content/terms` directory as new markdown files, where
 the name of the markdown file is the term, lowercased and hyphenated.
 
@@ -50,13 +52,11 @@ Refers to the text-input interface commonly used by developers to interact with 
 - [Command-Line Interface on Wikipedia](https://en.wikipedia.org/wiki/Command-line_interface)
 ```
 
-If you see that the glossary is missing a term, we would love your help in adding it!
-
 Here are the steps you need to take to contribute a term:
 
 ### How to Make a PR from the GitHub web interface
 
-Go to [content/terms] and click the "Add File" button in the GitHub interface.
+Go to [content/terms](https://github.com/do-community/developer-glossary/tree/main/content/terms) and click the "Add File" button in the GitHub interface.
 
 Name the file `<your-new-term>.md` for example if you were adding a definition for `Command-Line Interface` you would name the file `command-line-interface.md`.
 
