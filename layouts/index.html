@@ -6,39 +6,37 @@
     <link rel="canonical" href="{{ .Permalink }}" />
   </head>
   <body>
-    <header>
-      <h1>
-        {{ .Site.Title }}
-      </h1>
-    </header>
+    {{ partial "partials/header.html" . }}
+
     <main>
 
       {{ .Content }}
 
       {{ $letter := "A" }}
 
-      {{ range $index, $page := where .Site.Pages "Kind" "!=" "home" }}
+      {{ range $index, $page := where .Site.RegularPages "Section" "==" "terms" }}
 
         {{ if or (eq $index 0) (ne $letter (substr .Title 0 1)) }}
           {{ $letter := (substr .Title 0 1) }}
           <h2>{{ $letter }}</h2>
           <hr>
         {{ end }}
+        <div class="term">
+          <h3>
+            <a href="{{.Permalink}}">
+              {{ .Title }}
+            </a>
+          </h3>
 
-        <h3>
-          <a href="{{.Permalink}}">
-            {{ .Title }}
-          </a>
-        </h3>
-
-        <div class="definition">
-          {{ .Content }}
+          <div class="definition">
+            {{ .Content }}
+          </div>
         </div>
       {{ end }}
         
       </main>
-      <footer>
 
-      </footer>
+      {{ partial "partials/footer.html" . }}
+
   </body>
 </html>

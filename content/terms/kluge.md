@@ -13,6 +13,6 @@ It's used to describe the kind of solution that works, but you're not proud of i
 > The product manager kept pinging me asking when the fix was deployed, so I shipped a kluge that just hardcoded some of the configuration, I'll fix it properly next week.
 
 ## Further Reading
-- https://www.theatlantic.com/technology/archive/2016/09/the-appropriately-complicated-etymology-of-kluge/499433/
+- [The appropriately complicated etymology of kluge](https://www.theatlantic.com/technology/archive/2016/09/the-appropriately-complicated-etymology-of-kluge/499433/)
 
 
