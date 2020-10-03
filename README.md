@@ -31,10 +31,9 @@ Write out a definition of the term in markdown here.
 - [Link Title](https://www.link.com)
 ```
 
-For example, for the term `Command-Line Interface` the file might be
+For example, for the term `Command-Line Interface` the file path would be `content/terms/command-line-interface.md` and the contents might be:
 
 ```markdown
-[label content/terms/command-line-interface.md]
 ---
 title: "Command-Line Interface"
 date: 2020-10-02T21:23:17-04:00
