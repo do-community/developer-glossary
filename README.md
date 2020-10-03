@@ -2,6 +2,8 @@
 
 A community-built glossary of technical terms. See it live at [www.glossary.dev](https://www.glossary.dev)
 
+Kindly refer to our Code Of Conduct [here](https://github.com/do-community/developer-glossary/blob/main/code_of_conduct.md)
+
 ## How to Contribute a new term and definition
 
 If you see that the glossary is missing a term, we would love your help in adding it!
