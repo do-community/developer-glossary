@@ -17,9 +17,9 @@
 
       {{ if isset .Params "synonyms" }}
         <h2>Synonyms</h2>
-        <li>
-        <ul>{{ delimit .Params.synonyms ", " ", and " }}</ul>
-        </li>
+        <ul>
+        <li>{{ delimit .Params.synonyms ", " ", and " }}</li>
+        </ul>
       {{ end }}
 
     </main>
