@@ -7,7 +7,7 @@ A community-built glossary of technical terms.
 If you see that the glossary is missing a term, we would love your help in adding it!
 
 New terms should be added to the `content/terms` directory as new markdown files, where
-the name of the markdown file is the term, lowercased and hyphenated.
+the name of the markdown file is the term, lowercased and hyphenated. So a definition for "Command-Line Interface" would go in a file named `command-line-interface.md`
 
 Follow this template for the structure of your new definition:
 
@@ -31,9 +31,10 @@ Write out a definition of the term in markdown here.
 - [Link Title](https://www.link.com)
 ```
 
-For example, for the term `Command-Line Interface` the file might be:
+For example, for the term `Command-Line Interface` the file might be
 
 ```markdown
+[label content/terms/command-line-interface.md]
 ---
 title: "Command-Line Interface"
 date: 2020-10-02T21:23:17-04:00
@@ -68,3 +69,18 @@ Your title might be "Add definition for Command-Line Interface" and your extende
 Just share a bit about your reasoning for adding the content. Then click "Propose new file" to create a Pull Request.
 
 Someone will follow up with questions on your PR if there is anything wrong or unclear, and then they'll approve it and merge it and it will go live on the site!
+
+## Contributing code improvements
+
+We'd also love code contributions that beautify the site, make it more accessible and usable, and help it follow good web standards.
+
+### Local Development
+
+The site is statically generated using the [hugo](https://gohugo.io/) framework. To run it locally follow these steps:
+
+1. Fork the repo and clone it down to your local machine
+2. [Install hugo](https://gohugo.io/getting-started/installing#readout) if you don't already have it installed.
+3. Open a terminal in the root directory of the developer-glossary project and run `hugo server -D`
+4. Check that no errors appear in the terminal, it should tell you it is running on localhost:1313. That means you can view the site running locally by going to [http://localhost:1313](http://localhost:1313) in your browser.
+
+You're off to the races! Reference [hugo docs](https://gohugo.io/about/) to learn more and start making code contributions.
