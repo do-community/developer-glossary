@@ -6,6 +6,8 @@ description = "test"
 
 disableKinds = ["taxonomy", "term"]
 
+buildFuture = true
+
 [params]
   titleEmoji = ":tada:"
 
