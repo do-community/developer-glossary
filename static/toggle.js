@@ -1,36 +1,55 @@
-let view = "dark";
-const toggle = () => {
-  const body = document.getElementsByTagName("body")[0];
-  const links = document.getElementsByTagName("a");
-  const headers = document.getElementsByTagName("h2");
-  const toggle = document.getElementsByClassName("toggle")[0];
-  const lines = document.getElementsByTagName("hr");
-  if (view === "dark") {
-    body.classList.add("light");
-    toggle.classList.add("toggle-light");
-    for (let i = 0; i < links.length; i++) {
-      links[i].classList.add("a-light");
-    }
-    for (let i = 0; i < headers.length; i++) {
-      headers[i].classList.add("h2-light");
-    }
-    for (let i = 0; i < lines.length; i++) {
-      lines[i].classList.add("hr-light");
-    }
-    view = "light";
+const lighterize = ({ links, headers, lines, body, toggler }) => {
+  body.classList.add("light");
+  toggler.classList.add("toggle-light");
+  [...links].forEach(({ classList }) => classList.add("a-light"));
+  [...headers].forEach(({ classList }) => classList.add("h2-light"));
+  [...lines].forEach(({ classList }) => classList.add("hr-light"));
+};
+
+const darkerize = ({ links, headers, lines, body, toggler }) => {
+  body.classList.remove("light");
+  toggler.classList.remove("toggle-light");
+  [...links].forEach(({ classList }) => classList.remove("a-light"));
+  [...headers].forEach(({ classList }) => classList.remove("h2-light"));
+  [...lines].forEach(({ classList }) => classList.remove("hr-light"));
+};
+
+const toggle = (elements) => {
+  if (isDark()) {
+    localStorage.setItem("theme", "light");
+    lighterize(elements);
     return;
   }
-  body.classList.remove("light");
-  toggle.classList.remove("toggle-light");
-  for (let i = 0; i < links.length; i++) {
-    links[i].classList.remove("a-light");
+  if (isLight()) {
+    localStorage.setItem("theme", "dark");
+    darkerize(elements);
+    return;
   }
-  for (let i = 0; i < headers.length; i++) {
-    headers[i].classList.remove("h2-light");
-  }
-  for (let i = 0; i < lines.length; i++) {
-    lines[i].classList.remove("hr-light");
-  }
-  view = "dark";
-  return;
 };
+
+const isDark = () => localStorage.getItem("theme") === "dark";
+const isLight = () => localStorage.getItem("theme") === "light";
+
+window.onload = () => {
+  const elements = {
+    body: document.getElementsByTagName("body")[0],
+    links: document.getElementsByTagName("a"),
+    headers: document.getElementsByTagName("h2"),
+    toggler: document.getElementsByClassName("toggle")[0],
+    lines: document.getElementsByTagName("hr"),
+  };
+
+  const toggleButton = document.getElementById("toggler");
+  toggleButton.onclick = () => toggle(elements);
+
+  if (isDark()) {
+    darkerize(elements);
+    return;
+  }
+  if (isLight()) {
+    lighterize(elements);
+    return;
+  }
+};
+
+
