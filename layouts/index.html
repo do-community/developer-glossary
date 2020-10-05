@@ -40,7 +40,7 @@
 
       {{ $letter := "A" }}
 
-      {{ range $index, $page := where .Site.RegularPages.Alphabetical "Section" "==" "terms" }}
+      {{ range $index, $page := where .Site.RegularPages.ByTitle "Section" "==" "terms" }}
 
         {{ if or (eq $index 0) (ne $letter (substr .Title 0 1)) }}
           {{ $letter := (substr .Title 0 1) }}
