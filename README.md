@@ -92,7 +92,7 @@ All contributions made towards adding a new term and its definition must adhere 
 
 1. Every contribution made should adhere to the [Code of Conduct](https://github.com/do-community/developer-glossary/blob/main/code_of_conduct.md)
 2. Avoid usage of country specific language when adding a new term, in the term definition and for the examples provided.
-3. Use simple language. Avoid idioms and be clear.
+3. [Use simple language](https://plainlanguage.gov/resources/articles/dash-writing-tips/). Avoid idioms and be clear.
 4. Be accurate when providing definitions and examples for a term.
 5. We also adhere to the official [Github Community Guidelines](https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-community-guidelines) which provides additional information on how to collaborate and contribute to projects hosted on Github.
 
