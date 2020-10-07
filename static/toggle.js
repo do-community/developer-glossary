@@ -42,10 +42,16 @@ window.onload = () => {
   const toggleButton = document.getElementById("toggler");
   toggleButton.onclick = () => toggle(elements);
 
+  // If the theme is not light or dark, set it to dark by default
+  if (!['light', 'dark'].includes(localStorage.getItem('theme'))) {
+    localStorage.setItem('theme', 'dark');
+  }
+
   if (isDark()) {
     darkerize(elements);
     return;
   }
+  
   if (isLight()) {
     lighterize(elements);
     return;
