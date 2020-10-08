@@ -2,6 +2,7 @@
 title: "Unicorn"
 date: 2020-10-03T21:20:17-04:00
 part-of-speech: noun
+tags : ["U"]
 ---
 
 A Unicorn software developer is someone who knows web development and also has design skills.<br>

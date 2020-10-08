@@ -2,6 +2,7 @@
 title: "Boilerplate"
 date: 2020-10-03T21:20:27-04:00
 part-of-speech: noun
+tags: ["B"]
 ---
 
 A boilerplate is a collection of code snippets and assets that can be reused to boost development. 
