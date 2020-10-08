@@ -53,3 +53,14 @@ hr {
     color: #ffffff;
     background-color: #072540;
 }
+
+
+@media only screen and (max-width: 1024px){
+  .toc > a {
+    display:inline;
+  }
+
+  .toc > ul {
+    display: none;
+  }
+}

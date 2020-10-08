@@ -1,0 +1,29 @@
+<!-- {{range $name, $taxonomy := .Site.Taxonomies.tags}} 
+    {{ $cnt := .Count }}
+	{{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+        <div class="tagbutton">
+		    <a href={{ .RelPermalink }} title="All pages with tag <i>{{$name}}</i>">{{ $name | upper}}</a>
+            <sup>{{$cnt}}</sup>
+            
+        </div>
+	{{end}}
+{{end}} -->
+
+<section class="toc">
+    <h2>Table of Contents</h2>
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+        {{ if eq "tags" $taxonomyname }}
+        {{ range $key, $value := $taxonomy }}
+          
+            <a href="#{{ $key | upper}}">{{ $key | upper}}</a>
+          
+          <ul>
+          {{ range $value.Pages }}
+            <li><a href="#{{ .Title }}">{{ .Title }}</a></li>
+          {{ end }}
+          </ul>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+</section>
+  

@@ -2,6 +2,7 @@
 title: "Linter"
 date: 2020-10-32T10:06:00-08:00
 part-of-speech: noun, verb
+tags: ["L"]
 ---
 
 A linter is a tool for static code analysis that flags programming errors, bugs, and mistakes in a given style or programming language. The name originates from the extraneous fluff or lint shed from clothing.

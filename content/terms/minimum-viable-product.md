@@ -3,6 +3,7 @@ title: "Minimum Viable Product"
 date: 2020-10-03T21:20:37-04:00
 part-of-speech: noun
 abbreviation: MVP
+tags : ["M"]
 ---
 
 When working in web development, you may hear talk of “MVP” — or minimum viable product. 

@@ -2,6 +2,7 @@
 title: "Favicon"
 date: 2020-10-03T22:18:47+05:30
 part-of-speech: noun
+tags: ["F"]
 ---
 
 A favicon is a small 16x16 pixels icon used on web browsers to represent a website or a web page. Short for 'favorite icon', favicons are most commonly displayed on tabs at the top

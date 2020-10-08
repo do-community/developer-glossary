@@ -2,6 +2,7 @@
 title: "Framework"
 date: 2020-10-04T10:10:10-04:00
 part-of-speech: noun
+tags: ["F"]
 ---
 
 Suite of programs used in website or software development. 

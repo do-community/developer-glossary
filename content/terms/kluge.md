@@ -2,6 +2,7 @@
 title: "Kluge"
 date: 2020-10-02T21:23:17-04:00
 part-of-speech: noun
+tags: ["K"]
 ---
 
 A kluge is a term in the developer world for the kind of fix or solution to a problem that is rushed, "hacky" and not well thought out.

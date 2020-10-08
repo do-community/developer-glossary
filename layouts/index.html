@@ -2,68 +2,90 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="/main.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/main.css" type="text/css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
     <script src="/toggle.js"></script>
-  
+
     <!-- Primary Meta Tags -->
     <title>{{ .Site.Title }}</title>
-    <meta name="title" content="{{ .Site.Title }}">
-    <meta name="description" content="{{if .Site.Params.description}}{{ .Site.Params.description }}{{else}}{{.Description}}{{end}}">
-  
+    <meta name="title" content="{{ .Site.Title }}" />
+    <meta
+      name="description"
+      content="{{if .Site.Params.description}}{{ .Site.Params.description }}{{else}}{{.Description}}{{end}}"
+    />
+
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:title" content="{{ .Site.Title }}">
-    <meta property="og:description" content="{{if .Site.Params.description}}{{ .Site.Params.description }}{{else}}{{.Description}}{{end}}">
-    <meta property="og:image" content="{{ .Site.BaseURL }}/meta.jpg">
-  
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:title" content="{{ .Site.Title }}" />
+    <meta
+      property="og:description"
+      content="{{if .Site.Params.description}}{{ .Site.Params.description }}{{else}}{{.Description}}{{end}}"
+    />
+    <meta property="og:image" content="{{ .Site.BaseURL }}/meta.jpg" />
+
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ .Permalink }}">
-    <meta property="twitter:title" content="{{ .Site.Title }}">
-    <meta property="twitter:description" content="{{if .Site.Params.description}}{{ .Site.Params.description }}{{else}}{{.Description}}{{end}}">
-    <meta property="twitter:image" content="{{ .Site.BaseURL }}/meta.jpg">
-    
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="{{ .Permalink }}" />
+    <meta property="twitter:title" content="{{ .Site.Title }}" />
+    <meta
+      property="twitter:description"
+      content="{{if .Site.Params.description}}{{ .Site.Params.description }}{{else}}{{.Description}}{{end}}"
+    />
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}/meta.jpg" />
+
     <link rel="canonical" href="{{ .Permalink }}" />
   </head>
-  <body>
-    {{ partial "header.html" . }}
+  <body class="container-fluid">
     <main>
-
-      {{ .Content }}
-
-      {{ $letter := "A" }}
-
-      {{ range $index, $page := where .Site.RegularPages.ByTitle "Section" "==" "terms" }}
-
-        {{ if or (eq $index 0) (ne $letter (substr .Title 0 1)) }}
-          {{ $letter := (substr .Title 0 1) }}
-          <h2 class="text-center">{{ $letter }}</h2>
-          <hr>
-        {{ end }}
-        <div class="term container">
-          <h3>
-            <a href="{{.Permalink}}">
-              {{ .Title }}
-            </a>
-          </h3>
-
-          <div class=" definition container">
-            {{ .Content }}
-          </div>
+      {{ partial "header.html" . }}
+      <div class="row">
+         
+        <div class="col-sm-12 col-lg-2">
+          {{ partial "tags.html" . }}
         </div>
-      {{ end }}
-        
-      </main>
+        <div class="col-sm-12 col-lg-10">
+           
+            {{ .Content }} 
+            {{ $letter := "A" }} 
+            {{ range $index, $page := where .Site.RegularPages.ByTitle "Section" "==" "terms" }} 
+            {{ if or (eq $index 0) (ne $letter (substr .Title 01)) }} 
+            {{ $letter := (substr .Title 0 1) }}
+            <h2 class="text-center" id="{{ $letter }}">{{ $letter }}</h2>
+            <hr />
+            {{ end }}
+            <div class="term">
+              <h3>
+                <a id="{{ .Title }}" href="{{.Permalink}}"> {{ .Title }} </a>
+              </h3>
 
-      
-
+              <div class="definition">{{ .Content }}</div>
+            </div>
+            {{ end }}
+        </div>
+      </div>
       <h4>{{ partial "footer.html" . }}</h4>
-
+    </main>
   </body>
 </html>

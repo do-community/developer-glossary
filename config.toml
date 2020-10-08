@@ -3,11 +3,14 @@ languageCode = "en-us"
 title = "Developer Glossary"
 copyright = "MIT License, <a href='https://github.com/do-community/developer-glossary'>Contribute on GitHub</a>"
 
-disableKinds = ["taxonomy", "term"]
-
 [params]
   titleEmoji = ":tada:"
   description = "A developer's glossary built by the community, for the community."
 
 [Permalinks]
   term = ":slug"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
