@@ -5,6 +5,8 @@ copyright = "MIT License, <a href='https://github.com/do-community/developer-glo
 
 disableKinds = ["taxonomy", "term"]
 
+buildFuture = true
+
 [params]
   titleEmoji = ":tada:"
   description = "A developer's glossary built by the community, for the community."
