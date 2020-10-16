@@ -6,7 +6,7 @@ synonyms: ["Devlopment Operations"]
 ---
 
 DevOps is the collaboration between operations and development teams within an organization to achieve shorter development cycles and greater product reliability.
-It is the idea that in each stage of an application lifecycle each team has a shared responsbility.
+It is the idea that in each stage of an application lifecycle each team has a shared responsbility. This is an ongoing cycle that continues even after the application has  been released.
 
 ## Example
 
