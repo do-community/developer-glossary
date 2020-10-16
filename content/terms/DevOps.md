@@ -13,5 +13,6 @@ It is the idea that in each stage of an application lifecycle each team has a sh
 > My IT team and software development team will bridge the gap between roles by working together as one unit to share accountability for each stage of the development
 lifecycle. They will work together through collaboration and automation to build, test, and deploy applications at a higher velocity.
 
+## Further Reading
 - [What is DevOps on Atlassian](https://www.atlassian.com/devops/what-is-devops)
 - [What is DevOps on Amazon](https://aws.amazon.com/devops/what-is-devops/)
