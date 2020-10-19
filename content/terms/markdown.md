@@ -4,7 +4,7 @@ date: 2020-10-10
 part-of-speech: noun
 ---
 
-Markdown is a lightweight markup languange to help format plain text. The formmated text is then often converted to HTML.
+Markdown is a lightweight markup languange to help format plain text. The formatted text is then often converted to HTML.
 
 ## Example
 
