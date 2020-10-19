@@ -1,5 +1,5 @@
 ---
-title: "debugging"
+title: "Debugging"
 date: 2020-10-18T01:33:25+05:30
 part-of-speech: noun
 ---
