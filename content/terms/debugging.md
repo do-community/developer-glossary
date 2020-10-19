@@ -13,4 +13,4 @@ When writing code, bugs are errors or faults in a program that prevents it from 
 > Debugging can be a time consuming process as it involves a couple of steps - locating the line number, identifying the type, take the help of google and finally, fixing the error.
 
 ## Further Reading
-- I found a [Wikipedia article](https://en.wikipedia.org/wiki/Debugging) that covers some interesting things about debugging.
+- Here's a [Wikipedia article](https://en.wikipedia.org/wiki/Debugging) that covers some interesting things about debugging.
