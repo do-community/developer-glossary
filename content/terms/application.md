@@ -1,6 +1,6 @@
 ---
 title: "Application"
-date: "`r Sys.Date()`"
+date: 2020-10-10T21:23:17-04:00
 part-of-speech: noun
 abbreviation: App
 ---
