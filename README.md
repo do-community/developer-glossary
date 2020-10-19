@@ -86,6 +86,15 @@ The site is statically generated using the [hugo](https://gohugo.io/) framework.
 
 You're off to the races! Reference [hugo docs](https://gohugo.io/about/) to learn more and start making code contributions.
 
+### Syncing a forked repo
+Sync a fork of a repository to keep it up-to-date with the upstream repository.
+```bash
+git remote add upstream https://github.com/do-community/developer-glossary.git
+git fetch upstream
+git checkout main
+git merge upstream/main
+```
+
 ## Language use guidelines for contributions
 
 All contributions made towards adding a new term and its definition must adhere to these common guidelines:
