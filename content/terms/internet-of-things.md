@@ -10,7 +10,7 @@ Describes the network of physical objects—“things”—that are embedded wit
 
 ## Example
 
-> Various smart devices ranging from interconnected home appliances to self-driving cars to smart lights, there is a new great wave coming in this field.
+> Various smart devices ranging from interconnected home appliances to self-driving cars to smart lights-- there is a new great wave of IOT products coming in this field.
 
 ## Further Reading
 - [Internet of Things on Wikipedia](https://en.wikipedia.org/wiki/Internet_of_things)
