@@ -1,6 +1,6 @@
 ---
 title: "Semi structured data"
-date: 2020-10-21T23:05:47+05:30
+date: 2020-10-21T23:08:47+05:30
 part-of-speech: noun
 ---
 
