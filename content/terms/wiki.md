@@ -1,5 +1,5 @@
 ---
-title: "WiKi"
+title: "Wiki"
 date: 2020-10-11T23:28:00+02:00
 part-of-speech: noun
 ---
