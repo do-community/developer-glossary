@@ -20,7 +20,7 @@ languages and associative compilers are:
 ## Examples
 
 > A developer wrote a program in C++. In order to generate and run a binary,
-they need to compiler the C++ source code to machine language.
+they need to compile the C++ source code to machine language.
 
 ## Further Reading
 
