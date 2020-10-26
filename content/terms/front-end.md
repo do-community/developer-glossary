@@ -2,16 +2,16 @@
 title: "Front End"
 date: 2020-10-25
 part-of-speech: noun
-synonyms: 
-abbreviation: 
+synonyms: frontend, front-end
+abbreviation: FE
 ---
 
-For an application, the Front End is the part that is exposed to the user.
+A front end is the graphical user interface of a computer or software that makes it easier to use for end users. For example, Microsoft Windows 3.11 was a front end for the MS-DOS command line.
 
 
 ## Example
 
->A front end is the graphical user interface of a computer that makes it easier to use. For example, Microsoft Windows 3.11 was a front end for the MS-DOS command line.
+>For an application, the front end is the part that is exposed to the user.
 
 
 ## Further Reading
