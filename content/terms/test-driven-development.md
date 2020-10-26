@@ -1,16 +1,16 @@
 ---
-title: "Test Driven Development"
+title: "Test-Driven Development"
 date: 2020-10-24T21:25:17-04:00
 part-of-speech: noun
-synonyms: ["Test Driven"]
+synonyms: ["Test-Driven"]
 abbreviation: TDD
 ---
 
-Refers to process of software development, where the developer will design and implement the testcases first and later develop the application logic to pass the tests.
+Refers to process of software development, where the developer will design and implement test cases first, and later develop the application logic needed to pass the tests.
 
 ## Example
 
-> The goal of Test Driven Development (TDD) is to ensure that developer always produce testable codes.
+> The goal of Test-Driven Development (TDD) is to ensure that the developer always produces testable code.
 
 ## Further Reading
 - [Test driven development on Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development)
