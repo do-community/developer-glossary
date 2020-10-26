@@ -24,5 +24,4 @@ they need to compile the C++ source code to machine language.
 
 ## Further Reading
 
-- [Compiler on
-  Wikipedia](https://en.wikipedia.org/wiki/Compiler#:~:text=In%20computing%2C%20a%20compiler%20is,language%20(the%20target%20language).))
+- [Compiler on Wikipedia](https://en.wikipedia.org/wiki/Compiler)  
