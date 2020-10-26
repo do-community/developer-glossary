@@ -2,7 +2,7 @@
 title: "FAANG"
 date: 2020-10-15
 part-of-speech: noun
-synonyms: ["Big Tech", "Big Five", "GAFAM, "GAFA"]
+synonyms: ["Big Tech", "Big Five", "GAFAM", "GAFA"]
 abbreviation: FAANG
 ---
 
