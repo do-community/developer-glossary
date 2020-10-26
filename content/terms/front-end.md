@@ -15,4 +15,4 @@ A front end is the graphical user interface of a computer or software that makes
 
 
 ## Further Reading
-- [Front End and back end on Wikipedia](https://en.wikipedia.org/wiki/Front_end_and_back_end)
+- [Front-End and Back-End on Wikipedia](https://en.wikipedia.org/wiki/Front_end_and_back_end)

@@ -16,5 +16,5 @@ The back end of software or an application deals with the servers, databases and
 
 
 ## Further Reading
-- [Front End and back end on Wikipedia](https://en.wikipedia.org/wiki/Front_end_and_back_end)
-- [60+ Programming Jargon Explained for a Junior Developer] (https://medium.com/swlh/60-programming-jargon-explained-for-a-junior-developer-30d0c8413725)
+- [Front-End and Back-End on Wikipedia](https://en.wikipedia.org/wiki/Front_end_and_back_end)
+- [60+ Programming Jargon Explained for a Junior Developer](https://medium.com/swlh/60-programming-jargon-explained-for-a-junior-developer-30d0c8413725)
