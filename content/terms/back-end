@@ -6,7 +6,7 @@ synonyms: Backend/ server-side
 abbreviation: 
 ---
 
-The Back End is the part that deals with data and databases.
+The back end of software or an application deals with the servers, databases and applications that power user interactions on the front end. Developers who work in the back end use server-side languages like PHP and Java and databases like MySQL to build applications.
 
 
 
