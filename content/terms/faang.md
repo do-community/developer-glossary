@@ -2,7 +2,7 @@
 title: "FAANG"
 date: 2020-10-15T16:00:00-08:00
 part-of-speech: noun
-synonyms: ["Big Tech", "Big Five"]
+synonyms: ["Big Tech", "Big Five", "GAFAM, "GAFA"]
 abbreviation: FAANG
 ---
 
@@ -14,10 +14,10 @@ The acronym *FAANG* refers to the names of the five most popular tech companies 
 - Netflix
 - Google
 
-Originally coined as a stock market term to represent the largest tech companies by market capitalization--*FAANG* is the latest alias colloquailly used among the software/IT community to describe a collective of pretigious household-name tech companies, known for their highly competitive hiring process and their generous total monetary compensation package.
+Originally coined as a stock market term to represent the largest tech companies by market capitalization--*FAANG* is the latest alias colloquially used among the software/IT community to describe a collective of pretigious household-name tech companies, known for their highly competitive hiring process and their generous total monetary compensation package.
 
 ## Example
 > Microsoft is a FAANG company based in Redmond, WA.
 
-## Further Readhing
+## Further Reading
 - [FAANG](https://en.wikipedia.org/wiki/Big_Tech)
