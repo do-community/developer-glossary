@@ -12,8 +12,10 @@ React was originally created by Jordan Walke, a software engineer at Facebook.
 
 ## Example
 
-> A single-page app created through React: https://github.com/ahfarmer/calculator and a complete app built with React: https://github.com/builderbook/builderbook
+> Although React is defined as a JavaScript library, it has several characteristics of a framework.
 
 ## Further Reading
 
 - Learn more via [React Documentation](https://reactjs.org/)
+- [A single-page app created through React](https://github.com/ahfarmer/calculator)
+- [A complete app built with React](https://github.com/builderbook/builderbook)
