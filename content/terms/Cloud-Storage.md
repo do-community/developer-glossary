@@ -2,7 +2,7 @@
 title: "Cloud Storage"
 date: 2020-10-25
 part-of-speech: noun
-synonyms: ["Virtual Storage"]
+synonyms: ["Virtual Storage", "the cloud"]
 abbreviation: Cloud
 ---
 
