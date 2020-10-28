@@ -8,8 +8,8 @@
 </p>
 <br>
 
-<p align="center">A community-built glossary of technical terms. See it live at [www.glossary.dev](https://www.glossary.dev).</p>
-<p align="center">Kindly refer to our Code Of Conduct [here](https://github.com/do-community/developer-glossary/blob/main/code_of_conduct.md) before contributing.</p>
+A community-built glossary of technical terms. See it live at [www.glossary.dev](https://www.glossary.dev).
+Kindly refer to our Code Of Conduct [here](https://github.com/do-community/developer-glossary/blob/main/code_of_conduct.md) before contributing.
 
 <br>
 <br>
