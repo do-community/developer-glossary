@@ -1,16 +1,30 @@
-# developer-glossary
+<br>
+<p align="center">
+  <img src="https://i.ibb.co/nnKZtGP/dev-glossary.png">
+</p>
+<br>
+<p align="center">
+  <img src="https://i.ibb.co/str4chy/open-book-wave-logo.png">
+</p>
+<br>
 
 A community-built glossary of technical terms. See it live at [www.glossary.dev](https://www.glossary.dev).
-
 Kindly refer to our Code Of Conduct [here](https://github.com/do-community/developer-glossary/blob/main/code_of_conduct.md) before contributing.
+
+<br>
+<br>
 
 ## General Contributions
 If you see that the glossary is missing a term, we would love your help in adding it!
+
+<br>
 
 ### How to Contribute Terms
 
 New terms should be added to the `content/terms` directory as new markdown files, where
 the name of the markdown file is the term, **lowercased and hyphenated.** So a definition for "Command-Line Interface" would go in a file named `command-line-interface.md`. Examples should include the terms in a sentence, and be relevant and appropriate.
+
+<br>
 
 Follow this template for the structure of your new definition:
 
@@ -34,6 +48,9 @@ Write out a definition of the term in markdown here.
 - [Link Title](https://www.link.com)
 ```
 
+<br>
+
+
 For example, for the term `Command-Line Interface` the file path would be `content/terms/command-line-interface.md` and the contents might be:
 
 ```markdown
@@ -55,7 +72,7 @@ Refers to the text-input interface commonly used by developers to interact with 
 - [Command-Line Interface on Wikipedia](https://en.wikipedia.org/wiki/Command-line_interface)
 ```
 
-Here are the steps you need to take to contribute a term:
+<br>
 
 ### How to Submit a PR from Github Desktop
 
@@ -72,9 +89,15 @@ Just share a bit about your reasoning for adding the content. Then click "Propos
 
 Someone will follow up with questions on your PR if there is anything wrong or unclear, and then they'll approve it and merge it and it will go live on the site!
 
+<br>
+<br>
+<br>
+
 ## Contributing Code Improvements
 
 We'd also love code contributions that beautify the site, make it more accessible and usable, and help it follow good web standards.
+
+<br>
 
 ### Local Development and Installation
 
@@ -87,6 +110,10 @@ The site is statically generated using the [hugo](https://gohugo.io/) framework.
 
 You're off to the races! Reference [hugo docs](https://gohugo.io/about/) to learn more and start making code contributions.
 
+<br>
+<br>
+<br>
+
 ## Syncing a Forked Repo
 Sync a fork of a repository to keep it up-to-date with the upstream repository.
 ```bash
@@ -95,6 +122,10 @@ git fetch upstream
 git checkout main
 git merge upstream/main
 ```
+
+<br>
+<br>
+<br>
 
 ## Language Use Guidelines
 
@@ -106,14 +137,23 @@ All contributions made towards adding a new term and its definition must adhere 
 4. Be accurate when providing definitions and examples for a term.
 5. We also adhere to the official [Github Community Guidelines](https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-community-guidelines) which provides additional information on how to collaborate and contribute to projects hosted on Github.
 
+<br>
+<br>
+<br>
 
 ## Project Updates 
 
 You can follow updates on the development of our glossary, here.
 
+- 10-28-20:
+    - [Issue](https://github.com/do-community/developer-glossary/issues/72) being worked on by two contributors- still open to more help! 
+    - Merged 3+ new terms and glossary improvements. Remember to name your file using the **lowercase and hyphenated** convention. 
+    - Updated README to add more whitespace/styling elements. 
+
 - 10-26-20: 
     - New [Issue](https://github.com/do-community/developer-glossary/issues/72) added for UI help- update our glossary's UI!
     - Merged 15+ new terms into the glossary, and fixed issue in file that prevented Hugo site from running.
     - Reviewed new and submitted terms for style/content, and submitted edits for various terms. Please follow the guidelines and be sure your terms/examples/links are helpful and appropriate.
+    
 - 10-19-20: 
     - Merged 10+ new terms into the glossary
