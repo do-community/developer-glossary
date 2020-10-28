@@ -6,7 +6,14 @@ synonyms: ["RESTful"]
 abbreviation: REST
 ---
 
-Representational state transfer (REST) is a software architectural style that defines a set of constraints to be used for creating Web services. Web services that conform to the REST architectural style, called RESTful Web services, provide interoperability between computer systems on the internet. 
+REST (Representational state transfer) is architectural style used for creating distributed hypermedia systems (Web services). It defines following constraints which must be satisfied if an interface needs to be referred as RESTful. 
+
+> 1. Client–server 
+> 2. Stateless 
+> 3. Cacheable 
+> 4. Uniform interface
+> 5. Layered system
+> 6. Code on demand (optional) 
 
 RESTful Web services allow the requesting systems to access and manipulate textual representations of Web resources by using a uniform and predefined set of stateless operations, in the form of an HTTP method, or verb (GET, POST, PUT, DELETE etc.). By using a stateless protocol and standard operations, RESTful systems aim for fast performance, reliability, and the ability to grow by reusing components.
 
