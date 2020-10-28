@@ -8,7 +8,8 @@
 </p>
 <br>
 
-A community-built glossary of technical terms. See it live at [www.glossary.dev](https://www.glossary.dev).
+A community-built glossary of technical terms. <br>
+See it live at [www.glossary.dev](https://www.glossary.dev). <br>
 Kindly refer to our Code Of Conduct [here](https://github.com/do-community/developer-glossary/blob/main/code_of_conduct.md) before contributing.
 
 <br>
