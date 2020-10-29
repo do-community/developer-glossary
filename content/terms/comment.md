@@ -8,8 +8,7 @@ A comment is a portion of text that you put into the source code of a computer p
 
 ## Example
 
-> Comment your code so in future you or anyone else reading this code would understand why you made such horrible design decisions
-> Putting comments in perfectly readable code was something I never understood till I came across Javascript
+> Comments are useful to help developers understand design patterns and decisions.
 
 ## Further Reading
 

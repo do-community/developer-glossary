@@ -87,3 +87,12 @@ own fork, and then submit a pull request. The code should follow any
 stylistic and architectural guidelines prescribed by the project. In the
 absence of such guidelines, mimic the styles and patterns in the existing
 code-base.
+
+## Syncing a forked repo
+Sync a fork of a repository to keep it up-to-date with the upstream repository.
+```bash
+git remote add upstream https://github.com/do-community/developer-glossary.git
+git fetch upstream
+git checkout main
+git merge upstream/main
+```
