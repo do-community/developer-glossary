@@ -54,3 +54,7 @@ hr {
     color: #ffffff;
     background-color: #072540;
 }
+
+.listing {
+  margin: 4em auto;
+}
