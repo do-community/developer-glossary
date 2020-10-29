@@ -9,6 +9,7 @@ body {
 
 .toggle {
   margin: auto;
+  padding: 0.5em 0.7em;
   background-color: #ffffff;
   color: #031b4e;
   border-radius: 25px;
