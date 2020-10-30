@@ -146,6 +146,10 @@ All contributions made towards adding a new term and its definition must adhere 
 
 You can follow updates on the development of our glossary, here.
 
+- 10-30-20:
+    - Added 3+ more terms to the glossary, and an action that performs a test to ensure the site build passes with each PR.
+    - PRs are open for more terms! Let's build a glossary that helps our community to thrive.
+
 - 10-28-20:
     - [Issue](https://github.com/do-community/developer-glossary/issues/72) being worked on by two contributors- still open to more help! 
     - Merged 3+ new terms and glossary improvements. Remember to name your file using the **lowercase and hyphenated** convention. 
