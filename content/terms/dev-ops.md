@@ -2,7 +2,7 @@
 title: "DevOps"
 date: 2020-10-16T2:30:45-04:00
 part-of-speech: noun
-synonyms: ["Devlopment Operations"]
+synonyms: ["Development Operations"]
 ---
 
 DevOps is the collaboration between operations and development teams within an organization to achieve shorter development cycles and greater product reliability.
