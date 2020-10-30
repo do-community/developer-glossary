@@ -30,6 +30,36 @@ const toggle = (elements) => {
 const isDark = () => localStorage.getItem("theme") === "dark";
 const isLight = () => localStorage.getItem("theme") === "light";
 
+const fixMarkup = () => {
+  const articleHeaders = document.querySelectorAll('.term > h3');
+  articleHeaders.forEach((articleHeader) => {
+    articleHeader.id = getHeaderId(articleHeader.textContent);
+  });
+
+  const examples = document.querySelectorAll('#example');
+  const furtherReadings = document.querySelectorAll('#further-reading');
+  [...examples, ...furtherReadings].forEach((element) => {
+    const term = element.closest('.term');
+    const header = term.querySelector('h3');
+
+    const outerHTML = element.outerHTML;
+    element.outerHTML = outerHTML.replace(/h2/g, 'h4');
+    element.id = `${header.id}-${element.id}`;
+
+    // sets class to example / further-reading
+    element.classList.add(element.id);
+
+    console.log(element)
+  });
+}
+
+const getHeaderId = (textContent) => {
+  return textContent.
+    trim()
+    .toLowerCase()
+    .replace(/[^a-zA-Z0-9:]/g, '-');
+};
+
 window.onload = () => {
   const elements = {
     body: document.getElementsByTagName("body")[0],
@@ -49,13 +79,11 @@ window.onload = () => {
 
   if (isDark()) {
     darkerize(elements);
-    return;
   }
-  
+
   if (isLight()) {
     lighterize(elements);
-    return;
   }
+
+  fixMarkup();
 };
-
-

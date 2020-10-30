@@ -64,20 +64,24 @@
         {{ if ne $firstChar $curLetter }}
     <!-- update the current letter and print it -->
         {{ $.Scratch.Set "curLetter" $firstChar }}
-    <h2 class="text-center">{{ $firstChar }}</h2>
-    <hr>
-    {{ end }}
-    <div class="term listing container">
-      <h3>
-        <a href="{{.Permalink}}">
-          {{ .Title }}
-        </a>
-      </h3>
 
-      <div class=" definition container">
-        {{ .Content }}
-      </div>
-    </div>
+    <section class="character-section">
+      <h2 style="padding-left: 15px">{{ $firstChar }}</h2>
+      <hr>
+      {{ end }}
+
+      <article class="term container">
+        <h3>
+          <a href="{{.Permalink}}">
+            {{ .Title }}
+          </a>
+        </h3>
+        <div class="definition container">
+          {{ .Content }}
+        </div>
+      </article>
+    </section>
+    
     {{ end }}
     {{ end }}
 
@@ -85,7 +89,7 @@
 
 
 
-  <h4>{{ partial "footer.html" . }}</h4>
+  {{ partial "footer.html" . }}
 
 </body>
 
