@@ -6,7 +6,7 @@ synonyms: ["the indented syntax"]
 abbreviation: SASS, SCSS
 ---
 
-SASS or Syntactically Awesome Stylesheets It's a preprocessor stylesheet language that’s compiled into CSS. It gives you more power while writing your CSS like variable, function, nesting, mixins, and more. While SCSS (Sassy CSS) is the other one style from SASS
+SASS or Syntactically Awesome Stylesheets is a preprocessor stylesheet language that’s compiled into CSS. It gives you more power while writing CSS, and includes variables, functions, nesting, mixins, and more. SCSS (Sassy CSS) is another style of SASS.
 
 ## Example
 
