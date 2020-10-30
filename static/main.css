@@ -1,7 +1,3 @@
-header {
-  text-align: center;
-}
-
 body {
   background-color: #072540;
   color: #ffffff;
@@ -17,7 +13,7 @@ main {
   margin-top: 4em;
 }
 
-.character-section {
+.character-section ~ .character-section {
   margin-top: 8em;
 }
 
@@ -25,11 +21,8 @@ p {
   margin-bottom: 2em;
 }
 
-h2,
-.h2 {
-  color: #93c2db;
-}
-
+h1,
+.h1,
 h2,
 .h2,
 h3,
@@ -37,6 +30,11 @@ h3,
 h4,
 .h4 {
   margin-bottom: 1em;
+}
+
+h2,
+.h2 {
+  color: #93c2db;
 }
 
 h4,
@@ -80,6 +78,10 @@ hr {
   color: #031b4e;
 }
 
+.light header.jumbotron {
+  background-color: inherit;
+}
+
 .a-light {
   color: #9c4668;
 }
@@ -119,10 +121,18 @@ strong {
   width: 100%;
 }
 
-pre {
-  background: inherit;
+#page-header {
+  margin: 3em 0;
+  padding-bottom: 4em;
+  background-color: inherit;
+  text-align: center;
 }
 
-.light pre {
-  background: black;
+#page-header > h1 {
+  font-size: em;
+  margin-bottom: 0.5em;
+}
+
+#page-header > .jumbotron {
+  background-color: inherit;
 }

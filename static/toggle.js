@@ -48,8 +48,6 @@ const fixMarkup = () => {
 
     // sets class to example / further-reading
     element.classList.add(element.id);
-
-    console.log(element)
   });
 }
 
