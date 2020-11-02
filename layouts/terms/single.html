@@ -54,14 +54,14 @@
       {{ .Content }}
 
       {{ if isset .Params "synonyms" }}
-        <h2>Synonyms</h2>
+        <h4>Synonyms</h4>
         <ul style="list-style: none;">
           <li>{{ delimit .Params.synonyms ", " ", and " }}</li>
         </ul>
       {{ end }}
 
       {{ if isset .Params "abbreviation" }}
-        <h2>Abbreviation</h2>
+        <h4>Abbreviation</h4>
         <ul style="list-style: none;">
           <li>{{ .Params.abbreviation }}</li>
         </ul>

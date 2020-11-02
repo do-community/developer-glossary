@@ -1,10 +1,68 @@
-header {
-  text-align: center;
-}
-
 body {
   background-color: #072540;
   color: #ffffff;
+}
+
+main {
+  max-width: 55em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.term {
+  margin-top: 4em;
+}
+
+.character-section ~ .character-section {
+  margin-top: 8em;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+  margin-bottom: 1em;
+}
+
+h2,
+.h2 {
+  color: #93c2db;
+}
+
+h4,
+.h4 {
+  color: #93c2db;
+}
+
+a {
+  color: #ff8ae2;
+  text-decoration: underline;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+.h1 a,
+.h2 a,
+.h3 a,
+.h4 a,
+.h5 a {
+  text-decoration: none;
+}
+
+hr {
+  border-style: dashed;
+  border-color: #ffffff;
 }
 
 .toggle {
@@ -15,27 +73,17 @@ body {
   border-radius: 25px;
 }
 
-a {
-  color: #ff8ae2;
-}
-
-h2 {
-  color: #93c2db;
-}
-
-h3 {
-    display: list-item;
-    list-style-type: disc;
-}
-
-hr {
-  border-style: dashed;
-  border-color: #ffffff;
-}
-
 .light {
   background-color: #ffffff;
   color: #031b4e;
+}
+
+.light header.jumbotron {
+  background-color: inherit;
+}
+
+.light h4 {
+  color: #7ea1b3;
 }
 
 .a-light {
@@ -51,10 +99,44 @@ hr {
 }
 
 .toggle-light {
-    color: #ffffff;
-    background-color: #072540;
+  color: #ffffff;
+  background-color: #072540;
 }
 
-.listing {
-  margin: 4em auto;
+.definition {
+  padding-left: 0;
+}
+
+.definition > ul {
+  padding-left: 1.5em;
+}
+
+.definition > ul > li {
+  padding-left: 0.25em;
+}
+
+b,
+strong {
+  font-weight: bolder;
+  font-size: 1.05em;
+}
+
+.hightlight {
+  width: 100%;
+}
+
+#page-header {
+  margin: 3em 0;
+  padding-bottom: 4em;
+  background-color: inherit;
+  text-align: center;
+}
+
+#page-header > h1 {
+  font-size: em;
+  margin-bottom: 0.5em;
+}
+
+#page-header > .jumbotron {
+  background-color: inherit;
 }

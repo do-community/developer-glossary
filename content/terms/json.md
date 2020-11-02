@@ -3,7 +3,7 @@ title: "JSON (JavaScript Object Notation)"
 date: 2020-10-28
 part-of-speech: noun
 synonyms: ["JSON"]
-abbreviation: 
+abbreviation:
 ---
 
 JSON stands for JavaScript Object Notation. JSON is a lightweight format for storing and transporting data. JSON is often used when data is sent from a server to a web page.
@@ -15,58 +15,35 @@ Since the JSON format is text only, it can easily be sent to and from a server, 
 ## Example
 
 > The following example shows a possible JSON representation describing a person.
-> 
-> 
->{
-> 
->  "firstName": "John",
->   
->  "lastName": "Smith",
->   
->  "isAlive": true,
->   
->  "age": 27,
->   
->  "address": {
->   
->    "streetAddress": "21 2nd Street",
->     
->    "city": "New York",
->     
->    "state": "NY",
->     
->    "postalCode": "10021-3100"
->     
->  },
->   
->  "phoneNumbers": [
->   
->    {
->     
->      "type": "home",
->       
->      "number": "212 555-1234"
->       
->    },
->     
->    {
->     
->      "type": "office",
->       
->      "number": "646 555-4567"
->       
->   }
->     
->    ],
->        
->   "children": [],
->    
->   "spouse": null
->    
->}
- 
 
+```JSON
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true,
+  "age": 27,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3100"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+   }
+    ],
+   "children": [],
+   "spouse": null
+}
+```
 
 ## Further Reading
+
 - [JSON on Wikipedia](https://en.wikipedia.org/wiki/JSON)
 - [JSON - Introduction](https://www.w3schools.com/js/js_json_intro.asp)
