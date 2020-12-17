@@ -1,5 +1,5 @@
 ---
-title: "Continuos Integration"
+title: "Continuous Integration"
 date: 2020-12-16
 part-of-speech: verb
 synonyms: CI/CD
