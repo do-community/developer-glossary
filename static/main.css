@@ -140,3 +140,8 @@ strong {
 #page-header > .jumbotron {
   background-color: inherit;
 }
+
+
+a:hover{
+  color: #ff6ada;
+}
